@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textareaField({
+	label: "Data Format"|t,
+	instructions: ""|t,
+	id: 'data',
+	name: 'data',
+	value: settings.data|raw,
+	errors: settings.getErrors('data'),
+    rows: 8
+}) }}

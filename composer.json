@@ -1,0 +1,15 @@
+{
+	"name": "/qrcode",
+	"description": "QR Code generator",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Kurious Agency",
+			"homepage": "https://kurious.agency"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"endroid/qr-code": "^2.5"
+	}
+}

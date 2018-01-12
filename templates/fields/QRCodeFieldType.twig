@@ -1,0 +1,23 @@
+{#
+/**
+ * QRCode plugin for Craft CMS
+ *
+ * QRCodeFieldType HTML
+ *
+ * @author    Kurious Agency
+ * @copyright Copyright (c) 2018 Kurious Agency
+ * @link      https://kurious.agency
+ * @package   QRCode
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.hidden({
+    id: id,
+    name: name,
+    value: value,
+}) }}
+
+<img src="{{ value }}" />
